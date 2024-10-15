@@ -30,8 +30,8 @@ My primary research interests include:
 # 📝 Publications 
 
 - <font size="3">A Call for Decentralized Satellite Networks</font> \
-**Seoyul Oh**, Deepak Vasisht\
-<span style="color:purple">**ACM Workshop on Hot Topics in Networks (HotNets)**</span> 2024 \
+**Seoyul Oh**, Deepak Vasisht \
+<span style="color:purple">**ACM Workshop on Hot Topics in Networks (HotNets 2024)**</span> 
 
 # 📖 Educations
 - *2023.08 - Present*, Ph.D in Computer Science, <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">UIUC</a>.
