@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">at University of Illinois, Urbana-Champaign (UIUC)</a>, currently advised by Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;"> Deepak Vasisht</a>. I obtained my Master's from Korea University, under the supervision of Prof. <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Sangheon Pack</a>. Here is my <a href="https://drive.google.com/file/" style="color: #7289da; text-decoration:none">CV</a>.
+I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">University of Illinois, Urbana-Champaign (UIUC)</a>, currently advised by Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;"> Deepak Vasisht</a>. I obtained my Master's degree from Korea University, under the supervision of Prof. <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Sangheon Pack</a>. Here is my <a href="https://drive.google.com/file/" style="color: #7289da; text-decoration:none">CV</a>.
 
 My primary research interests include:
 - Next-G Wireless Networks
