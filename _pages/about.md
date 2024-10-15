@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">University of Illinois, Urbana-Champaign (UIUC)</a>, currently advised by Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;"> Deepak Vasisht</a>. I obtained my Master's degree from Korea University, under the supervision of Prof. <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Sangheon Pack</a>. I also worked as a visiting researcher at <a href="https://www.cs.purdue.edu/" style="color: #7289da; text-decoration: none;">Purdue Univeresity</a> during my Masters, under the guidance of Prof. <a href="https://www.cs.purdue.edu/homes/chunyi/" style="color: #7289da; text-decoration: none;">Chunyi Peng</a>. Here is my <a href="https://drive.google.com/file/" style="color: #7289da; text-decoration:none">CV</a>.
+I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">University of Illinois, Urbana-Champaign (UIUC)</a>, currently advised by Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;"> Deepak Vasisht</a>. I obtained my Master's degree from <a href="https://ee.korea.ac.kr/eng/main/main.html" style="color: #7289da; text-decoration: none;">Korea University, under the supervision of Prof. <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Sangheon Pack</a>. I also worked as a visiting researcher at <a href="https://www.cs.purdue.edu/" style="color: #7289da; text-decoration: none;">Purdue Univeresity</a> during my Masters, under the guidance of Prof. <a href="https://www.cs.purdue.edu/homes/chunyi/" style="color: #7289da; text-decoration: none;">Chunyi Peng</a>. Here is my <a href="https://drive.google.com/file/" style="color: #7289da; text-decoration:none">CV</a>.
 
 My primary research interests include:
 - Next-G Wireless Networks
@@ -34,7 +34,7 @@ My primary research interests include:
 **Seoyul Oh**, Deepak Vasisht \
 <span style="color:purple">**ACM Workshop on Hot Topics in Networks (HotNets 2024)**</span> 
 
-# 📖 Educations
+# 📖 Education
 - *2023.08 - Present*, Ph.D in Computer Science, <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">UIUC</a>.
 - *2021.03 - 2023.02*, M.S. in Electrical and Computer Engineering, <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Korea University</a>.
 - *2016.03 - 2021.02*, B.S. in Electrical Engineering, <a href="https://ee.korea.ac.kr/eng/main/main.html" style="color: #7289da; text-decoration: none;">Korea University</a>.
