@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">at University of Illinois, Urbana-Champaign (UIUC), currently advised by Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">Heng Ji</a>. I obtained my Master's from Korea University, under the supervision of Prof. <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Sangheon Pack</a>. Here is my <a href="https://drive.google.com/file/" style="color: #7289da; text-decoration:none">CV</a>.
+I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">at University of Illinois, Urbana-Champaign (UIUC), currently advised by Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">Deepak Vasisht</a>. I obtained my Master's from Korea University, under the supervision of Prof. <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Sangheon Pack</a>. Here is my <a href="https://drive.google.com/file/" style="color: #7289da; text-decoration:none">CV</a>.
 
 My primary research interests include:
 - Next-G Wireless Networks
@@ -29,7 +29,8 @@ My primary research interests include:
 
 # 📝 Publications 
 
-- <font size="3">A Call for Decentralized Satellite Networks</font> \
+- <font size="3">A Call for Decentralized Satellite Networks</font>
+[[paper]](https://drive.google.com/file/) 
 **Seoyul Oh**, Deepak Vasisht \
 <span style="color:purple">**ACM Workshop on Hot Topics in Networks (HotNets 2024)**</span> 
 

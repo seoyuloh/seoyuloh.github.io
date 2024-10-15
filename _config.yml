@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Seoyul Oh"
   avatar           : "images/profile_me.png"
-  bio              : "Lorem ipsum College"
+  bio              : 
   location         : "Urbana-Champaign, IL"
   employer         :
   pubmed           : 
