@@ -30,7 +30,7 @@ My primary research interests include:
 # 📝 Publications 
 
 - <font size="3">A Call for Decentralized Satellite Networks</font>
-[[paper]](https://dl.acm.org/doi/10.1145/3696348.3696896) \
+[[paper]](https://dl.acm.org/doi/10.1145/3696348.3696896) [[slides]](/assets/MP-LEO_slides.pdf)\
 **Seoyul Oh**, Deepak Vasisht \
 <span style="color:purple">**ACM Workshop on Hot Topics in Networks (HotNets 2024)**</span> 
 
