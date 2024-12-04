@@ -40,7 +40,7 @@ Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
 <span style="color:purple">**Under Review at Mobicom 2025**</span> 
 
 
-# 📖 Education
+# 📖 Educations
 - *2023.08 - Present*, Ph.D in Computer Science, <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">UIUC</a>.
 - *2021.03 - 2023.02*, M.S. in Electrical and Computer Engineering, <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Korea University</a>.
 - *2016.03 - 2021.02*, B.S. in Electrical Engineering, <a href="https://ee.korea.ac.kr/eng/main/main.html" style="color: #7289da; text-decoration: none;">Korea University</a>.
