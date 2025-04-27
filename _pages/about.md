@@ -17,17 +17,23 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">University of Illinois, Urbana-Champaign (UIUC)</a>, currently advised by Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;"> Deepak Vasisht</a>. I obtained my Master's degree from <a href="https://ee.korea.ac.kr/eng/main/main.html" style="color: #7289da; text-decoration: none;">Korea University</a>, under the supervision of Prof. <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Sangheon Pack</a>. I also worked as a visiting researcher at <a href="https://www.cs.purdue.edu/" style="color: #7289da; text-decoration: none;">Purdue University</a> during my Masters, under the guidance of Prof. <a href="https://www.cs.purdue.edu/homes/chunyi/" style="color: #7289da; text-decoration: none;">Chunyi Peng</a>. Here is my <a href="assets/cv_seoyuloh.pdf" style="color: #7289da; text-decoration:none">CV</a>.
+I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">University of Illinois, Urbana-Champaign (UIUC)</a>, co-advised by Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">Deepak Vasisht</a> and Prof. <a href="https://fyy.cs.illinois.edu/" style="color: #7289da; text-decoration: none;">Francis Y. Yan</a>. I obtained my Master's degree from <a href="https://ee.korea.ac.kr/eng/main/main.html" style="color: #7289da; text-decoration: none;">Korea University</a>, under the supervision of Prof. <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Sangheon Pack</a>. I also worked as a visiting researcher at <a href="https://www.cs.purdue.edu/" style="color: #7289da; text-decoration: none;">Purdue University</a> during my Masters, under the guidance of Prof. <a href="https://www.cs.purdue.edu/homes/chunyi/" style="color: #7289da; text-decoration: none;">Chunyi Peng</a>. Here is my <a href="assets/cv_seoyuloh.pdf" style="color: #7289da; text-decoration:none">CV</a>.
+
 
 My primary research interests include:
-- Next-G Wireless Networks
 - Decentralized Networks
+- Safety Guarantees in Networked Systems 
 
 # 🔥 News
 - *2024.09*: &nbsp;🎉🎉 One paper accepted to **HotNets 2024**  
 - *2023.09*: &nbsp;🎉🎉 Started my Ph.D. program at **UIUC**! 
 
 # 📝 Publications 
+- <font size="3">OrbitShare: A Multi-party Architecture for Decentralized LEO Satellite Networks</font>
+[[paper]](https://seoyuloh.github.io/)\
+**Seoyul Oh**, Bill Tao, Shreya Kannan, Deepak Vasisht \
+<span style="color:purple">**Under Review at NSDI 2026**</span> 
+
 
 - <font size="3">A Call for Decentralized Satellite Networks</font>
 [[paper]](https://dl.acm.org/doi/10.1145/3696348.3696896) [[slides]](/assets/MP-LEO_slides.pdf)\
@@ -37,7 +43,7 @@ My primary research interests include:
 - <font size="3">EcoCell: Energy-aware Traffic Shaping for Cellular Radio Access Networks</font>
 [[poster version]](assets/ecocell_poster.pdf) \
 Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
-<span style="color:purple">**Under Review at Mobicom 2025**</span> 
+<span style="color:purple">**Under Review at Sigcomm 2025**</span> 
 
 
 # 📖 Educations
