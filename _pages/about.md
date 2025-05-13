@@ -17,8 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">University of Illinois, Urbana-Champaign (UIUC)</a>, co-advised by Prof. <a href="https://fyy.cs.illinois.edu/" style="color: #7289da; text-decoration: none;">Francis Y. Yan</a> and Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">Deepak Vasisht</a>. I obtained my Master's degree from <a href="https://ee.korea.ac.kr/eng/main/main.html" style="color: #7289da; text-decoration: none;">Korea University</a>, under the supervision of Prof. <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Sangheon Pack</a>. I also worked as a visiting researcher at <a href="https://www.cs.purdue.edu/" style="color: #7289da; text-decoration: none;">Purdue University</a> during my Masters, under the guidance of Prof. <a href="https://www.cs.purdue.edu/homes/chunyi/" style="color: #7289da; text-decoration: none;">Chunyi Peng</a>. Here is my <a href="assets/cv_seoyuloh.pdf" style="color: #7289da; text-decoration:none">CV</a>.
-
+I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">University of Illinois, Urbana-Champaign (UIUC)</a>, co-advised by Prof. <a href="https://fyy.cs.illinois.edu/" style="color: #7289da; text-decoration: none;">Francis Y. Yan</a> and Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">Deepak Vasisht</a>. Here is my <a href="assets/cv_seoyuloh.pdf" style="color: #7289da; text-decoration:none">CV</a>.
 
 My primary research interests include:
 - Decentralized Networks
@@ -34,7 +33,6 @@ My primary research interests include:
 **Seoyul Oh**, Bill Tao, Shreya Kannan, Deepak Vasisht \
 <span style="color:purple">**Under Review at NSDI 2026**</span> 
 
-
 - <font size="3">A Call for Decentralized Satellite Networks</font>
 [[paper]](https://dl.acm.org/doi/10.1145/3696348.3696896) [[slides]](/assets/MP-LEO_slides.pdf)\
 **Seoyul Oh**, Deepak Vasisht \
@@ -47,13 +45,13 @@ Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
 
 
 # 📖 Educations
-- *2023.08 - Present*, Ph.D in Computer Science, <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">UIUC</a>.
-- *2021.03 - 2023.02*, M.S. in Electrical and Computer Engineering, <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Korea University</a>.
+- *2023.08 - Present*, Ph.D in Computer Science, <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">UIUC</a>.
+- *2021.03 - 2023.02*, M.S. in Electrical and Computer Engineering, <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Korea University</a>. (Advisor: <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Prof. Sangheon Pack</a>)
 - *2016.03 - 2021.02*, B.S. in Electrical Engineering, <a href="https://ee.korea.ac.kr/eng/main/main.html" style="color: #7289da; text-decoration: none;">Korea University</a>.
 
 # 💻 Work Experience
-- *2022.08 - 2023.02*, Visiting Researcher at  <a href="https://www.cs.purdue.edu/homes/chunyi/" style="color: #7289da; text-decoration: none;">Purdue University</a>, MSSN Lab (Mobile System, Security and Networking), West Lafayette, IN. 
+- *2022.08 - 2023.02*, Visiting Researcher at  <a href="https://www.cs.purdue.edu/homes/chunyi/group.html" style="color: #7289da; text-decoration: none;">Purdue University</a>, MSSN Lab (Mobile System, Security and Networking), West Lafayette, IN. (Advisor: <a href="https://www.cs.purdue.edu/homes/chunyi/" style="color: #7289da; text-decoration: none;">Prof. Chunyi Peng</a>)
 
 
 # 🎖 Honors and Awards
-- *2022.08* International R&D Program Grant for Graduate Students in Science & Technology (2022), Funded by the Ministry of Science and ICT, Korea (15,000,000 KRW)
+- *2022.08* International R&D Program Grant for Graduate Students in Science & Technology (2022), Funded by the Ministry of Science and ICT, Korea (12,580 USD)
