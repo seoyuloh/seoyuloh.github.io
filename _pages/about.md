@@ -28,10 +28,6 @@ My primary research interests include:
 - *2023.09*: &nbsp;🎉🎉 Started my Ph.D. program at **UIUC**! 
 
 # 📝 Publications 
-- <font size="3">OrbitShare: A Multi-party Architecture for Decentralized LEO Satellite Networks</font>
-[[paper]](https://seoyuloh.github.io/)\
-**Seoyul Oh**, Bill Tao, Shreya Kannan, Deepak Vasisht \
-<span style="color:purple">**Under Review at NSDI 2026**</span> 
 
 - <font size="3">A Call for Decentralized Satellite Networks</font>
 [[paper]](https://dl.acm.org/doi/10.1145/3696348.3696896) [[slides]](/assets/MP-LEO_slides.pdf)\
@@ -41,7 +37,7 @@ My primary research interests include:
 - <font size="3">EcoCell: Energy-aware Traffic Shaping for Cellular Radio Access Networks</font>
 [[poster version]](assets/ecocell_poster.pdf) \
 Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
-<span style="color:purple">**Under Review at Sigcomm 2025**</span> 
+<span style="color:purple">**Under Review at CoNEXT 2025**</span> 
 
 
 # 📖 Educations
