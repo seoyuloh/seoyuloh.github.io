@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">University of Illinois, Urbana-Champaign (UIUC)</a>, co-advised by Prof. <a href="https://fyy.cs.illinois.edu/" style="color: #7289da; text-decoration: none;">Francis Y. Yan</a> and Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">Deepak Vasisht</a>. Here is my <a href="assets/cv_seoyuloh.pdf" style="color: #7289da; text-decoration:none">CV</a>.
+I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">University of Illinois Urbana-Champaign (UIUC)</a>, co-advised by Prof. <a href="https://fyy.cs.illinois.edu/" style="color: #7289da; text-decoration: none;">Francis Y. Yan</a> and Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">Deepak Vasisht</a>. Here is my <a href="assets/cv_seoyuloh.pdf" style="color: #7289da; text-decoration:none">CV</a>.
 
 My primary research interests include:
 - Decentralized Networks
@@ -34,10 +34,20 @@ My primary research interests include:
 **Seoyul Oh**, Deepak Vasisht \
 <span style="color:purple">**ACM Workshop on Hot Topics in Networks (HotNets 2024)**</span> 
 
+- <font size="3">A First-Principles Diagnosis of RL Training in Networked Systems</font>
+[[paper]](https://seoyuloh.github.io) \
+**Seoyul Oh**\* , Yikai Zheng\* , Deepak Vasisht, Francis Y. Yan \
+<span style="color:purple">**Under Review**</span> &nbsp; <em>(*Equal contribution)</em>
+
+- <font size="3">OrbitShare: A Multi-party Architecture for Decentralized LEO Satellite Networks</font>
+[[paper]](https://seoyuloh.github.io) \
+**Seoyul Oh**, Bill Tao, Shreya Kannan, Deepak Vasisht \
+<span style="color:purple">**Under Review**</span>
+
 - <font size="3">EcoCell: Energy-aware Traffic Shaping for Cellular Radio Access Networks</font>
 [[poster version]](assets/ecocell_poster.pdf) \
 Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
-<span style="color:purple">**Under Review at CoNEXT 2025**</span> 
+<span style="color:purple">**Under Review**</span> 
 
 
 # 📖 Educations
@@ -50,4 +60,6 @@ Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
 
 
 # 🎖 Honors and Awards
-- *2022.08* International R&D Program Grant for Graduate Students in Science & Technology (2022), Funded by the Ministry of Science and ICT, Korea (12,580 USD)
+- *2025.09* KASF–Kia Scholarship — *Korean American Scholarship Foundation* (2500 USD)
+- *2025.09* Korean Honor Scholarship (KHS) ($1,500) — *Ministry of Foreign Affairs (MOFA), Korea* (1500 USD)
+- *2022.08* International R&D Program Grant for Graduate Students in Science & Technology — *Ministry of Science and ICT, Korea* (12,580 USD)
