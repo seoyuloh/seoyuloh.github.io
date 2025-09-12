@@ -61,5 +61,5 @@ Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
 
 # 🎖 Honors and Awards
 - *2025.09* KASF–Kia Scholarship — *Korean American Scholarship Foundation* (2500 USD)
-- *2025.09* Korean Honor Scholarship (KHS) ($1,500) — *Ministry of Foreign Affairs (MOFA), Korea* (1500 USD)
+- *2025.09* Korean Honor Scholarship (KHS) — *Ministry of Foreign Affairs (MOFA), Korea* (1500 USD)
 - *2022.08* International R&D Program Grant for Graduate Students in Science & Technology — *Ministry of Science and ICT, Korea* (12,580 USD)
