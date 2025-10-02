@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">University of Illinois Urbana-Champaign (UIUC)</a>, co-advised by Prof. <a href="https://fyy.cs.illinois.edu/" style="color: #7289da; text-decoration: none;">Francis Y. Yan</a> and Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">Deepak Vasisht</a>. Here is my <a href="assets/cv_seoyuloh.pdf" style="color: #7289da; text-decoration:none">CV</a>.
+I am a Computer Science PhD student at <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">University of Illinois Urbana-Champaign (UIUC)</a>, co-advised by Prof. <a href="https://fyy.cs.illinois.edu/" style="color: #7289da; text-decoration: none;">Francis Y. Yan</a> and Prof. <a href="https://deepakv.web.illinois.edu/" style="color: #7289da; text-decoration: none;">Deepak Vasisht</a>. Here is my <a href="assets/cv_seoyuloh.pdf" style="color: #7289da; text-decoration:none">CV</a>.
 
 My primary research interests include:
 - Decentralized Networks
