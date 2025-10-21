@@ -50,10 +50,10 @@ Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
 <span style="color:purple">**Under Review**</span> 
 
 
-# 📖 Educations
+# 📖 Education
 - *2023.08 - Present*, Ph.D in Computer Science, <a href="https://siebelschool.illinois.edu/" style="color: #7289da; text-decoration: none;">UIUC</a>.
-- *2021.03 - 2023.02*, M.S. in Electrical and Computer Engineering, <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Korea University</a>. (Advisor: <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Prof. Sangheon Pack</a>)
-- *2016.03 - 2021.02*, B.S. in Electrical Engineering, <a href="https://ee.korea.ac.kr/eng/main/main.html" style="color: #7289da; text-decoration: none;">Korea University</a>.
+- *2023.02*, M.S. in Electrical and Computer Engineering, <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Korea University</a>. (Advisor: <a href="https://sites.google.com/site/mnclab/home" style="color: #7289da; text-decoration: none;">Prof. Sangheon Pack</a>)
+- *2021.02*, B.S. in Electrical Engineering, <a href="https://ee.korea.ac.kr/eng/main/main.html" style="color: #7289da; text-decoration: none;">Korea University</a>.
 
 # 💻 Work Experience
 - *2022.08 - 2023.02*, Visiting Researcher at  <a href="https://www.cs.purdue.edu/homes/chunyi/group.html" style="color: #7289da; text-decoration: none;">Purdue University</a>, MSSN Lab (Mobile System, Security and Networking), West Lafayette, IN. (Advisor: <a href="https://www.cs.purdue.edu/homes/chunyi/" style="color: #7289da; text-decoration: none;">Prof. Chunyi Peng</a>)
