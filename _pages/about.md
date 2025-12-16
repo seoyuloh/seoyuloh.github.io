@@ -24,6 +24,7 @@ My primary research interests include:
 - Safety Guarantees in Networked Systems 
 
 # 🔥 News
+- *2025.12*: &nbsp;🎉🎉 One paper accepted to **NINeS 2026** 
 - *2024.09*: &nbsp;🎉🎉 One paper accepted to **HotNets 2024**  
 - *2023.09*: &nbsp;🎉🎉 Started my Ph.D. program at **UIUC**! 
 
@@ -34,6 +35,11 @@ My primary research interests include:
 **Seoyul Oh**, Deepak Vasisht \
 <span style="color:purple">**ACM Workshop on Hot Topics in Networks (HotNets 2024)**</span> 
 
+- <font size="3">EcoCell: Energy-aware Traffic Shaping for Cellular Radio Access Networks</font>
+[[poster version]](assets/ecocell_poster.pdf) \
+Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
+<span style="color:purple">**New Ideas in Networked Systems (NINeS 2026)**</span> 
+
 - <font size="3">A First-Principles Diagnosis of RL Training in Networked Systems</font>
 [[paper]](https://seoyuloh.github.io) \
 **Seoyul Oh**\* , Yikai Zheng\* , Deepak Vasisht, Francis Y. Yan \
@@ -43,11 +49,6 @@ My primary research interests include:
 [[paper]](https://seoyuloh.github.io) \
 **Seoyul Oh**, Bill Tao, Shreya Kannan, Deepak Vasisht \
 <span style="color:purple">**Under Review**</span>
-
-- <font size="3">EcoCell: Energy-aware Traffic Shaping for Cellular Radio Access Networks</font>
-[[poster version]](assets/ecocell_poster.pdf) \
-Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
-<span style="color:purple">**Under Review**</span> 
 
 
 # 📖 Education
