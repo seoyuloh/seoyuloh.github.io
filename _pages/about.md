@@ -38,7 +38,7 @@ My primary research interests include:
 - <font size="3">EcoCell: Energy-aware Traffic Shaping for Cellular Radio Access Networks</font>
 [[poster version]](assets/ecocell_poster.pdf) \
 Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
-<span style="color:purple">**New Ideas in Networked Systems (NINeS 2026)**</span> 
+<span style="color:purple">**New Ideas in Networked Systems (NINeS 2026) To Appear**</span> 
 
 - <font size="3">A First-Principles Diagnosis of RL Training in Networked Systems</font>
 [[paper]](https://seoyuloh.github.io) \
