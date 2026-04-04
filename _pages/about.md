@@ -24,21 +24,20 @@ My primary research interests include:
 - Safety Guarantees in Networked Systems 
 
 # 🔥 News
-- *2025.12*: &nbsp;🎉🎉 One paper accepted to **NINeS 2026** 
-- *2024.09*: &nbsp;🎉🎉 One paper accepted to **HotNets 2024**  
+- *2025.12*: &nbsp;🎉🎉 One paper accepted at **NINeS 2026** 
+- *2024.09*: &nbsp;🎉🎉 One paper accepted at **HotNets 2024**  
 - *2023.09*: &nbsp;🎉🎉 Started my Ph.D. program at **UIUC**! 
 
 # 📝 Publications 
-
 - <font size="3">A Call for Decentralized Satellite Networks</font>
 [[paper]](https://dl.acm.org/doi/10.1145/3696348.3696896) [[slides]](/assets/MP-LEO_slides.pdf)\
 **Seoyul Oh**, Deepak Vasisht \
 <span style="color:purple">**ACM Workshop on Hot Topics in Networks (HotNets 2024)**</span> 
 
 - <font size="3">EcoCell: Energy-aware Traffic Shaping for Cellular Radio Access Networks</font>
-[[poster version]](assets/ecocell_poster.pdf) \
+[[paper]](https://nines-conference.org/papers/p006-Liu.pdf) [[slides]](/assets/EcoCell_slides.pdf) [[code]](https://github.com/ConnectedSystemsLab/EcoCell) [[talk]](https://vimeo.com/showcase/NINeS?video=1161962147) \
 Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
-<span style="color:purple">**New Ideas in Networked Systems (NINeS 2026) To Appear**</span> 
+<span style="color:purple">**New Ideas in Networked Systems (NINeS 2026)**</span> 
 
 - <font size="3">A First-Principles Diagnosis of RL Training in Networked Systems</font>
 [[paper]](https://seoyuloh.github.io) \
@@ -61,7 +60,11 @@ Zikun liu, **Seoyul Oh**, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht \
 
 
 # 🎖 Honors and Awards
-- *2025.12* Outstanding Teaching Assistant Award — *UIUC* (200 USD)
+- *2025.12* Outstanding Teaching Assistant Award — *UIUC*
 - *2025.09* KASF–Kia Scholarship — *Korean American Scholarship Foundation* (2,500 USD)
 - *2025.09* Korean Honor Scholarship (KHS) — *Ministry of Foreign Affairs (MOFA), Korea* (1,500 USD)
 - *2022.08* International R&D Program Grant for Graduate Students in Science & Technology — *Ministry of Science and ICT, Korea* (12,580 USD)
+
+<br>
+
+<p style="text-align: center;">Seoyul's Website <a href="https://youngerous.github.io/" style="text-decoration: none;">🧢</a></p>
