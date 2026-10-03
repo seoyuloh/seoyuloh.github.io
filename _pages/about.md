@@ -70,8 +70,9 @@ redirect_from:
         <div class="publication-content">
         <div class="publication-meta">
           {% if paper.status %}<span class="venue-badge status-badge">{{ paper.status }}</span>{% else %}<span class="venue-badge">{{ paper.venue }}{% if paper.year %} ’{{ paper.year | modulo: 100 }}{% endif %}</span>{% endif %}
+          {% if paper.project %}{% unless paper.title contains paper.project %}<span class="publication-project"><span aria-hidden="true">|</span> {{ paper.project | escape }}</span>{% endunless %}{% endif %}
         </div>
-        <h3{% if paper.id %} id="{{ paper.id }}-title"{% endif %}>{% if paper.project %}{% unless paper.title contains paper.project %}{{ paper.project }}: {% endunless %}{% endif %}{{ paper.title | escape }}</h3>
+        <h3{% if paper.id %} id="{{ paper.id }}-title"{% endif %}>{{ paper.title | escape }}</h3>
         <p class="authors">{{ paper.authors | escape | replace: 'Seoyul Oh', '<strong>Seoyul Oh</strong>' }}</p>
         {% if paper.links %}
         <div class="paper-links" aria-label="Resources for {{ paper.title | escape }}">
