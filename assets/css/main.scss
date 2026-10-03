@@ -39,7 +39,7 @@ strong { font-weight: 600; }
 .skip-link:focus { top: 12px; color: #fff; }
 .site-icon, .resource-icon { display: inline-block; flex-shrink: 0; vertical-align: middle; }
 
-.site-header { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--line); background: #fafbfd; }
+.site-header { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--line); background: var(--paper); }
 .header-inner { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 24px; min-height: 72px; }
 .site-name { flex-shrink: 0; color: var(--ink); font-size: 20px; letter-spacing: -0.45px; }
 .site-name:hover { text-decoration: none; }
@@ -128,11 +128,15 @@ h2 .site-icon { width: 24px; height: 24px; }
 
 .record + .record { margin-top: 20px; }
 .record { position: relative; }
-.organization-record { min-height: 62px; padding-left: 69px; }
+.organization-record { --logo-height: 34px; --logo-width: 64px; min-height: 62px; padding-left: calc(var(--logo-width) + 20px); }
 .record-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 10px 22px; }
 .record h3 { font-size: 16px; line-height: 1.7; font-weight: 600; }
 .record-organization { color: var(--accent); }
-.organization-logo { position: absolute; top: 5px; left: 0; width: 44px; height: 44px; object-fit: contain; }
+.organization-logo { position: absolute; top: 5px; left: 0; display: flex; align-items: center; justify-content: center; width: var(--logo-width); height: var(--logo-height); overflow: hidden; }
+.organization-logo img { flex-shrink: 0; width: auto; height: 100%; max-width: none; }
+/* Compensate for empty space in the source assets so the visible marks share a height. */
+.organization-logo--apple img { height: 106.681%; transform: translateY(1.656%); }
+.organization-logo--purdue img { height: 186.916%; transform: translate(0.25%, 1.25%); }
 .record-date { flex-shrink: 0; color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
 .record-role { font-size: 15px; }
 .record-detail { margin-top: 4px; color: var(--muted); font-size: 14px; }
@@ -172,7 +176,6 @@ h2 .site-icon { width: 24px; height: 24px; }
 
 @media (max-width: 700px) {
   .page-shell { width: calc(100% - 40px); }
-  .site-header { background: #fff; }
   .header-inner { grid-template-columns: minmax(0, 1fr) auto; gap: 0 12px; padding-top: 10px; }
   .site-name { grid-column: 1 / -1; justify-self: start; font-size: 18px; line-height: 1.5; font-weight: 600; }
   .section-nav { grid-column: 1; grid-row: 2; justify-self: stretch; gap: 22px; margin-top: 3px; }
@@ -196,8 +199,7 @@ h2 .site-icon { width: 24px; height: 24px; }
   .section-header > a { min-height: 38px; }
   .publication + .publication { padding-top: 22px; margin-top: 22px; }
   .group-label { font-size: 18px; }
-  .organization-record { padding-left: 53px; }
-  .organization-logo { width: 34px; height: 34px; }
+  .organization-record { --logo-height: 26px; --logo-width: 50px; padding-left: calc(var(--logo-width) + 16px); }
   .record-date { font-size: 12px; }
   .record-role { font-size: 14px; }
   .record-detail { font-size: 14px; }

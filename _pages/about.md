@@ -26,6 +26,7 @@ redirect_from:
         <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" target="_blank" rel="noopener noreferrer">{% include profile-icon.html type='google-scholar' %}<span class="profile-tooltip" aria-hidden="true">Google Scholar</span></a>
         <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" target="_blank" rel="noopener noreferrer">{% include profile-icon.html type='github' %}<span class="profile-tooltip" aria-hidden="true">GitHub</span></a>
         <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">{% include profile-icon.html type='linkedin' %}<span class="profile-tooltip" aria-hidden="true">LinkedIn</span></a>
+        {% if site.author.twitter %}<a href="https://x.com/{{ site.author.twitter }}" aria-label="Twitter (X)" target="_blank" rel="noopener noreferrer">{% include profile-icon.html type='x-twitter' %}<span class="profile-tooltip" aria-hidden="true">Twitter (X)</span></a>{% endif %}
         <a href="{{ site.author.cv | relative_url }}" aria-label="CV" target="_blank" rel="noopener noreferrer">{% include resource-icon.html type='paper' %}<span class="profile-tooltip" aria-hidden="true">CV</span></a>
       </div>
     </div>
@@ -105,12 +106,12 @@ redirect_from:
   <div class="section-heading"><h2 id="experience-heading">{% include site-icon.html type='experience' %}Work experience</h2></div>
   <div>
     <article class="record organization-record">
-      <div class="record-heading"><h3 class="record-organization"><img class="organization-logo" src="{{ '/images/organizations/apple.svg' | relative_url }}" width="24" height="24" alt="" loading="lazy" decoding="async"><a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer">Apple</a></h3><p class="record-date">May – Aug 2026</p></div>
+      <div class="record-heading"><h3 class="record-organization"><span class="organization-logo organization-logo--apple" aria-hidden="true"><img src="{{ '/images/organizations/apple.svg' | relative_url }}" width="14" height="17" alt="" loading="lazy" decoding="async"></span><a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer">Apple</a></h3><p class="record-date">May – Aug 2026</p></div>
       <p class="record-role">Software Engineering Intern</p>
       <p class="record-detail">Developed network optimizations for reliable real-time video streaming over direct-to-cell LEO satellite links with limited bandwidth and highly variable network conditions.</p>
     </article>
     <article class="record organization-record">
-      <div class="record-heading"><h3 class="record-organization"><img class="organization-logo" src="{{ '/images/organizations/purdue.png' | relative_url }}" width="96" height="96" alt="" loading="lazy" decoding="async"><a href="https://www.purdue.edu/" target="_blank" rel="noopener noreferrer">Purdue University</a></h3><p class="record-date">Aug 2022 – Feb 2023</p></div>
+      <div class="record-heading"><h3 class="record-organization"><span class="organization-logo organization-logo--purdue" aria-hidden="true"><img src="{{ '/images/organizations/purdue.png' | relative_url }}" width="200" height="200" alt="" loading="lazy" decoding="async"></span><a href="https://www.purdue.edu/" target="_blank" rel="noopener noreferrer">Purdue University</a></h3><p class="record-date">Aug 2022 – Feb 2023</p></div>
       <p class="record-role">Visiting Researcher</p>
       <p class="record-detail">Host: <a href="https://www.cs.purdue.edu/homes/chunyi/" target="_blank" rel="noopener noreferrer">Chunyi Peng</a></p>
       <p class="record-detail">Researched 5G mobility and connectivity through measurements using cellular-connected drones.</p>
@@ -122,17 +123,17 @@ redirect_from:
   <div class="section-heading"><h2 id="education-heading">{% include site-icon.html type='education' %}Education</h2></div>
   <div>
     <article class="record organization-record">
-      <div class="record-heading"><h3 class="record-organization"><img class="organization-logo" src="{{ '/images/organizations/uiuc.svg' | relative_url }}" width="24" height="24" alt="" loading="lazy" decoding="async"><a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener noreferrer">University of Illinois Urbana-Champaign</a></h3><p class="record-date">Sep 2023 – Present</p></div>
+      <div class="record-heading"><h3 class="record-organization"><span class="organization-logo organization-logo--uiuc" aria-hidden="true"><img src="{{ '/images/organizations/uiuc.svg' | relative_url }}" width="242" height="350" alt="" loading="lazy" decoding="async"></span><a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener noreferrer">University of Illinois Urbana-Champaign</a></h3><p class="record-date">Sep 2023 – Present</p></div>
       <p class="record-role">Ph.D. in Computer Science</p>
       <p class="record-detail">Advisors: <a href="https://fyy.cs.illinois.edu/" target="_blank" rel="noopener noreferrer">Francis Y. Yan</a> and <a href="https://deepakv.web.illinois.edu/" target="_blank" rel="noopener noreferrer">Deepak Vasisht</a></p>
     </article>
     <article class="record organization-record">
-      <div class="record-heading"><h3 class="record-organization"><img class="organization-logo" src="{{ '/images/organizations/korea.png' | relative_url }}" width="24" height="24" alt="" loading="lazy" decoding="async"><a href="https://www.korea.edu/sites/en/index.do" target="_blank" rel="noopener noreferrer">Korea University</a></h3><p class="record-date">Feb 2023</p></div>
+      <div class="record-heading"><h3 class="record-organization"><span class="organization-logo organization-logo--korea" aria-hidden="true"><img src="{{ '/images/organizations/korea.png' | relative_url }}" width="217" height="294" alt="" loading="lazy" decoding="async"></span><a href="https://www.korea.edu/sites/en/index.do" target="_blank" rel="noopener noreferrer">Korea University</a></h3><p class="record-date">Feb 2023</p></div>
       <p class="record-role">M.S. in Electrical and Computer Engineering</p>
       <p class="record-detail">Advisor: <a href="https://sites.google.com/site/mnclab/home" target="_blank" rel="noopener noreferrer">Sangheon Pack</a></p>
     </article>
     <article class="record organization-record">
-      <div class="record-heading"><h3 class="record-organization"><img class="organization-logo" src="{{ '/images/organizations/korea.png' | relative_url }}" width="24" height="24" alt="" loading="lazy" decoding="async"><a href="https://www.korea.edu/sites/en/index.do" target="_blank" rel="noopener noreferrer">Korea University</a></h3><p class="record-date">Feb 2021</p></div>
+      <div class="record-heading"><h3 class="record-organization"><span class="organization-logo organization-logo--korea" aria-hidden="true"><img src="{{ '/images/organizations/korea.png' | relative_url }}" width="217" height="294" alt="" loading="lazy" decoding="async"></span><a href="https://www.korea.edu/sites/en/index.do" target="_blank" rel="noopener noreferrer">Korea University</a></h3><p class="record-date">Feb 2021</p></div>
       <p class="record-role">B.S. in Electrical Engineering</p>
     </article>
   </div>
