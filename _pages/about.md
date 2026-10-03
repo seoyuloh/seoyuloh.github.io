@@ -26,7 +26,7 @@ redirect_from:
         <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" target="_blank" rel="noopener noreferrer">{% include profile-icon.html type='google-scholar' %}<span class="profile-tooltip" aria-hidden="true">Google Scholar</span></a>
         <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" target="_blank" rel="noopener noreferrer">{% include profile-icon.html type='github' %}<span class="profile-tooltip" aria-hidden="true">GitHub</span></a>
         <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">{% include profile-icon.html type='linkedin' %}<span class="profile-tooltip" aria-hidden="true">LinkedIn</span></a>
-        {% if site.author.twitter %}<a href="https://x.com/{{ site.author.twitter }}" aria-label="Twitter (X)" target="_blank" rel="noopener noreferrer">{% include profile-icon.html type='x-twitter' %}<span class="profile-tooltip" aria-hidden="true">Twitter (X)</span></a>{% endif %}
+        {% if site.author.twitter %}<a href="https://x.com/{{ site.author.twitter }}" aria-label="X" target="_blank" rel="noopener noreferrer">{% include profile-icon.html type='x-twitter' %}<span class="profile-tooltip" aria-hidden="true">X</span></a>{% endif %}
         <a href="{{ site.author.cv | relative_url }}" aria-label="CV" target="_blank" rel="noopener noreferrer">{% include resource-icon.html type='paper' %}<span class="profile-tooltip" aria-hidden="true">CV</span></a>
       </div>
     </div>
@@ -42,16 +42,17 @@ redirect_from:
   </div>
   <div>
     <ul class="news-list">
-      <li><time datetime="2026-09">Sep 2026</time><p><strong>Rediscovering heuristics: A litmus test for RL in networked systems</strong> was accepted at <a href="https://conferences.sigcomm.org/hotnets/2026/" target="_blank" rel="noopener noreferrer"><strong>HotNets 2026</strong></a></p></li>
-      <li><time datetime="2026-09">Sep 2026</time><p><a href="https://arxiv.org/abs/2609.29029" target="_blank" rel="noopener noreferrer"><strong>RIFT</strong></a> was accepted at <a href="https://mlforsystems.org/" target="_blank" rel="noopener noreferrer"><strong>ML for Systems @ NeurIPS 2026</strong></a></p></li>
-      <li><time datetime="2026-08">Aug 2026</time><p>Completed my internship at <span class="inline-organization"><img src="{{ '/images/organizations/apple.svg' | relative_url }}" width="18" height="18" alt="" decoding="async"><strong>Apple</strong></span>, working on reliable video streaming over satellite links</p></li>
+      <li><time datetime="2026-09">Sep 2026</time><p><strong>Rediscovering heuristics: A litmus test for RL in networked systems</strong> <span aria-hidden="true">🔍</span> is accepted at <a href="https://conferences.sigcomm.org/hotnets/2026/" target="_blank" rel="noopener noreferrer"><strong>HotNets 2026</strong></a>!</p></li>
+      <li><time datetime="2026-09">Sep 2026</time><p><a href="https://arxiv.org/abs/2609.29029" target="_blank" rel="noopener noreferrer"><strong>RIFT</strong></a> <span aria-hidden="true">🛰️</span> is accepted at <a href="https://mlforsystems.org/" target="_blank" rel="noopener noreferrer"><strong>ML for Systems @ NeurIPS 2026</strong></a>!</p></li>
+      <li><time datetime="2026-08">Aug 2026</time><p>Completed my internship at <span class="inline-organization"><img src="{{ '/images/organizations/apple.svg' | relative_url }}" width="18" height="18" alt="" decoding="async"><strong>Apple</strong></span>, where I developed network optimizations for video streaming over satellite links</p></li>
     </ul>
     <details class="older-news">
       <summary>Earlier updates</summary>
       <ul class="news-list">
-        <li><time datetime="2025-12">Dec 2025</time><p><a href="https://drops.dagstuhl.de/storage/01oasics/oasics-vol139-nines2026/OASIcs.NINeS.2026.6/OASIcs.NINeS.2026.6.pdf" target="_blank" rel="noopener noreferrer"><strong>EcoCell</strong></a> was accepted at <a href="https://2026.nines-conference.org/" target="_blank" rel="noopener noreferrer"><strong>NINeS 2026</strong></a></p></li>
-        <li><time datetime="2024-09">Sep 2024</time><p><a href="https://conferences.sigcomm.org/hotnets/2024/papers/hotnets24-449.pdf" target="_blank" rel="noopener noreferrer"><strong>MP-LEO</strong></a> was accepted at <a href="https://conferences.sigcomm.org/hotnets/2024/" target="_blank" rel="noopener noreferrer"><strong>HotNets 2024</strong></a></p></li>
-        <li><time datetime="2023-09">Sep 2023</time><p>Started my Ph.D. in Computer Science at <strong>UIUC</strong></p></li>
+        <li><time datetime="2025-12">Dec 2025</time><p><a href="https://drops.dagstuhl.de/storage/01oasics/oasics-vol139-nines2026/OASIcs.NINeS.2026.6/OASIcs.NINeS.2026.6.pdf" target="_blank" rel="noopener noreferrer"><strong>EcoCell</strong></a> <span aria-hidden="true">🌱</span> is accepted at <a href="https://2026.nines-conference.org/" target="_blank" rel="noopener noreferrer"><strong>NINeS 2026</strong></a>!</p></li>
+        <li><time datetime="2024-12">Dec 2024</time><p>Passed my Ph.D. qualifying exam <span aria-hidden="true">🎉</span></p></li>
+        <li><time datetime="2024-09">Sep 2024</time><p><a href="https://conferences.sigcomm.org/hotnets/2024/papers/hotnets24-449.pdf" target="_blank" rel="noopener noreferrer"><strong>MP-LEO</strong></a> <span aria-hidden="true">🛰️</span> is accepted at <a href="https://conferences.sigcomm.org/hotnets/2024/" target="_blank" rel="noopener noreferrer"><strong>HotNets 2024</strong></a>!</p></li>
+        <li><time datetime="2023-09">Sep 2023</time><p>Started my Ph.D. in Computer Science at <strong>UIUC</strong> <span aria-hidden="true">🎓</span></p></li>
       </ul>
     </details>
   </div>

@@ -19,10 +19,10 @@
       venue: ML for Systems @ NeurIPS
       year: 2026
       url: https://arxiv.org/abs/2609.29029
-      image: /images/research/rift.png
-      image_alt: "Satellite imagery divided into tiles, with irrelevant tiles marked in red; attention focuses on a small subset of visual tokens, and prefill dominates inference energy and latency."
-      image_width: 720
-      image_height: 387
+      image: /images/research/rift-thumbnail.jpg
+      image_alt: "Satellite image divided into tiles, with a ship-counting query and overlaid prefill and decoding energy costs."
+      image_width: 1000
+      image_height: 666
       summary: >-
         A satellite image contains much more information than a specific question needs.
         RIFT identifies tiles and visual tokens that can be removed without changing the answer.
