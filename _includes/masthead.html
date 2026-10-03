@@ -1,14 +1,11 @@
 <header class="site-header">
   <div class="header-inner page-shell">
     <a class="site-name" href="#about">Seoyul Oh</a>
-    <button class="menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" hidden><span>Menu</span><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
-    <div class="header-navigation" id="site-navigation">
-      <nav class="section-nav" aria-label="Main navigation">
+    <nav class="section-nav" aria-label="Main navigation">
       {% for link in site.data.navigation.main %}
       <a href="{{ link.url }}"{% if forloop.first %} aria-current="location"{% endif %}>{{ link.title }}</a>
       {% endfor %}
-      </nav>
-      <a class="header-cv" href="{{ site.author.cv | relative_url }}" aria-label="CV: Seoyul Oh’s curriculum vitae (PDF)" target="_blank" rel="noopener noreferrer">CV <span aria-hidden="true">↗</span></a>
-    </div>
+    </nav>
+    <a class="header-cv" href="{{ site.author.cv | relative_url }}" aria-label="CV: Seoyul Oh’s curriculum vitae (PDF)" target="_blank" rel="noopener noreferrer">CV <span aria-hidden="true">↗</span></a>
   </div>
 </header>

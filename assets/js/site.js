@@ -1,11 +1,19 @@
 (() => {
   const header = document.querySelector('.site-header');
-  const menu = document.querySelector('.header-navigation');
-  const toggle = document.querySelector('.menu-toggle');
+  const navigation = document.querySelector('.section-nav');
   const links = [...document.querySelectorAll('.section-nav a')];
   const sections = links.map(link => document.querySelector(link.hash)).filter(Boolean);
-  const mobile = window.matchMedia('(max-width: 1000px)');
   let scheduled = false;
+
+  // Keep the entire focused link visible in the horizontally scrollable menu.
+  navigation?.addEventListener('focusin', event => {
+    const link = event.target.closest('a');
+    if (!link) return;
+    const visible = navigation.getBoundingClientRect();
+    const target = link.getBoundingClientRect();
+    if (target.left < visible.left) navigation.scrollLeft += target.left - visible.left;
+    else if (target.right > visible.right) navigation.scrollLeft += target.right - visible.right;
+  });
 
   const profileLinks = [...document.querySelectorAll('.profile-links a')];
   for (const link of profileLinks) {
@@ -23,30 +31,8 @@
     if (header) document.documentElement.style.setProperty('--header-height', `${header.getBoundingClientRect().height}px`);
   }
 
-  function closeMenu(returnFocus = false) {
-    if (!menu || !toggle) return;
-    menu.classList.remove('is-open');
-    toggle.setAttribute('aria-expanded', 'false');
+  if (header) {
     syncHeaderHeight();
-    if (returnFocus) toggle.focus();
-  }
-
-  if (header && menu && toggle) {
-    header.classList.add('has-js');
-    toggle.hidden = false;
-    toggle.addEventListener('click', () => {
-      const open = toggle.getAttribute('aria-expanded') !== 'true';
-      menu.classList.toggle('is-open', open);
-      toggle.setAttribute('aria-expanded', String(open));
-      syncHeaderHeight();
-    });
-    menu.addEventListener('click', event => {
-      if (event.target.closest('a')) closeMenu();
-    });
-    document.addEventListener('keydown', event => {
-      if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') closeMenu(true);
-    });
-    mobile.addEventListener('change', () => closeMenu());
     new ResizeObserver(syncHeaderHeight).observe(header);
   }
 
