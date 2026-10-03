@@ -1,33 +1,21 @@
----
-layout: compress
----
-
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-
   <body>
-
-    {% include browser-upgrade.html %}
+    <a class="skip-link" href="#main">Skip to content</a>
     {% include masthead.html %}
-
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-            {{ content }}
-          </section>
-        </div>
-      </article>
-    </div>
-
+    <main id="main" class="page-shell" tabindex="-1">
+      {{ content }}
+    </main>
+    <footer class="site-footer page-shell">
+      <div><p>Seoyul Oh <span aria-hidden="true">·</span> University of Illinois Urbana-Champaign <a class="footer-hat" href="https://youngerous.github.io/" aria-label="Takyoung Kim’s website" target="_blank" rel="noopener noreferrer">🧢</a></p><p class="design-credit">Design inspired by <a href="https://fyy.cs.illinois.edu/" target="_blank" rel="noopener noreferrer">Francis Y. Yan</a></p></div>
+      <div class="footer-links">
+        <a href="#about">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
     {% include scripts.html %}
-
   </body>
 </html>

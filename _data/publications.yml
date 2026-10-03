@@ -1,0 +1,97 @@
+# Content follows the October 2026 CV. Omit links when a public paper is unavailable.
+- label: Conferences & workshops
+  highlights: true
+  papers:
+    - title: "Rediscovering heuristics: A litmus test for RL in networked systems"
+      id: rediscovering-heuristics
+      authors: "Seoyul Oh, Yikai Zheng, Eric Xiang Gao, Deepak Vasisht, Francis Y. Yan"
+      venue: HotNets
+      year: 2026
+      summary: >-
+        We introduce heuristic rediscovery as a diagnostic test for RL training, asking whether
+        compact policies can recover strong heuristic baselines. Visualizing the return landscape,
+        optimization path, and policy correctness helps explain why training succeeds or fails.
+        We demonstrate the methodology in adaptive bitrate streaming (ABR) and congestion control (CC).
+    - title: "Exploiting Answer-Invariant Redundancies in Satellite Imagery for Efficient VLM Inference on Edge"
+      id: rift
+      project: RIFT
+      authors: "Ishani Janveja, Davis Zhang, Seoyul Oh, Deepak Vasisht"
+      venue: ML for Systems @ NeurIPS
+      year: 2026
+      url: https://arxiv.org/abs/2609.29029
+      image: /images/research/rift.png
+      image_alt: "Satellite imagery divided into tiles, with irrelevant tiles marked in red; attention focuses on a small subset of visual tokens, and prefill dominates inference energy and latency."
+      image_width: 720
+      image_height: 387
+      summary: >-
+        A satellite image contains much more information than a specific question needs.
+        RIFT identifies tiles and visual tokens that can be removed without changing the answer.
+        Its two stages—query-conditioned tile pruning and elastic prefill—reduce the energy
+        and latency of vision-language model inference. We evaluate the approach on satellite
+        imagery using LLaVA-1.5-7B and a Jetson AGX Orin.
+      links:
+        - label: Paper
+          icon: paper
+          url: https://arxiv.org/abs/2609.29029
+    - title: "EcoCell: Energy-aware Traffic Shaping for Cellular Radio Access Networks"
+      id: ecocell
+      project: EcoCell
+      authors: "Zikun Liu, Seoyul Oh, Bill Tao, Anuj Kalia, Yaxiong Xie, Deepak Vasisht"
+      venue: NINeS
+      year: 2026
+      url: https://drops.dagstuhl.de/storage/01oasics/oasics-vol139-nines2026/OASIcs.NINeS.2026.6/OASIcs.NINeS.2026.6.pdf
+      image: /images/research/ecocell.png
+      image_alt: "High-energy and low-energy cellular traffic patterns compared: fewer subframes, fewer users per subframe, and higher modulation and coding schemes save energy."
+      image_width: 591
+      image_height: 498
+      summary: >-
+        How traffic arrives at a cellular base station affects how much energy it uses.
+        EcoCell reshapes traffic to exploit energy-saving opportunities without changing
+        cellular protocols or hardware. It can run in the radio access network scheduler
+        or as an independent middlebox. Across five network applications on a production
+        base station, EcoCell saves up to 32% of dynamic energy without reducing quality of experience.
+      links:
+        - label: Paper
+          icon: paper
+          url: https://drops.dagstuhl.de/storage/01oasics/oasics-vol139-nines2026/OASIcs.NINeS.2026.6/OASIcs.NINeS.2026.6.pdf
+        - label: Slides
+          icon: slides
+          url: /assets/EcoCell_slides.pdf
+        - label: Code
+          icon: code
+          url: https://github.com/ConnectedSystemsLab/EcoCell
+        - label: Video
+          icon: video
+          url: https://vimeo.com/showcase/NINeS?video=1161962147
+    - title: A Call for Decentralized Satellite Networks
+      id: mp-leo
+      project: MP-LEO
+      authors: "Seoyul Oh, Deepak Vasisht"
+      venue: HotNets
+      year: 2024
+      url: https://conferences.sigcomm.org/hotnets/2024/papers/hotnets24-449.pdf
+      image: /images/research/mp-leo-shared-constellation.png
+      image_alt: "MP-LEO: orange and blue satellites form a shared constellation, serving different participants to reduce cost and improve capacity utilization."
+      image_width: 1440
+      image_height: 555
+      summary: >-
+        Satellites constantly move across the globe, making separate, region-specific
+        constellations costly and wasteful. MP-LEO proposes decentralized constellations
+        in which multiple parties contribute satellites and share spare capacity. We
+        explore how this design could reduce costs and orbital occupancy, remain robust
+        when participants withdraw, and what technical questions must be addressed to make it work.
+      links:
+        - label: Paper
+          icon: paper
+          url: https://conferences.sigcomm.org/hotnets/2024/papers/hotnets24-449.pdf
+        - label: Slides
+          icon: slides
+          url: /assets/MP-LEO_slides.pdf
+- label: Ongoing work
+  papers:
+    - title: "OrbitShare: A Multi-Party Architecture for Decentralized LEO Satellite Networks"
+      authors: "Seoyul Oh, Bill Tao, Shreya Kannan, Deepak Vasisht"
+      status: Under review
+    - title: Towards Autonomous Incident Mitigation with Graph-Grounded Agents
+      authors: "Seoyul Oh, Nikhil Chandrasekar, Yiqi Mei, Deepak Vasisht, Francis Y. Yan"
+      status: In preparation

@@ -7,8 +7,10 @@
 
 # Site Settings
 title                    : "Seoyul Oh"
-description              : "Ph.D. Student at UIUC"
-repository               : "seoyuloh/.github.io"
+description              : "Seoyul Oh is a Computer Science Ph.D. candidate at UIUC researching AI for networked systems, including reinforcement learning, reliable infrastructure agents, and decentralized satellite networks."
+url                      : "https://seoyuloh.github.io"
+baseurl                  : ""
+repository               : "seoyuloh/seoyuloh.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -29,6 +31,7 @@ author:
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=9bSluloAAAAJ&hl=en&oi=ao"
   email            : "seoyulo2@illinois.edu"
+  cv               : "/assets/SeoyulOh_CV_2026.pdf"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
