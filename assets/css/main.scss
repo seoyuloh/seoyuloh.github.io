@@ -49,7 +49,7 @@ strong { font-weight: 600; }
 .section-nav a:focus-visible { outline-offset: -2px; }
 .section-nav a:hover, .section-nav a[aria-current="location"] { color: var(--accent); }
 .section-nav a[aria-current="location"] { text-decoration: underline; text-underline-offset: 7px; text-decoration-thickness: 2px; }
-.header-cv { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 5px 13px; border: 1px solid var(--accent); border-radius: 5px; background: var(--accent); color: #fff; font-size: 14px; font-weight: 700; line-height: 1.5; white-space: nowrap; }
+.header-cv { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 32px; padding: 3px 10px; border: 1px solid var(--accent); border-radius: 4px; background: var(--accent); color: #fff; font-size: 14px; font-weight: 400; line-height: 1.5; white-space: nowrap; }
 .header-cv:hover { background: var(--accent-dark); border-color: var(--accent-dark); color: #fff; text-decoration: none; }
 
 .intro { display: grid; grid-template-columns: minmax(0, 1fr) 252px; align-items: start; gap: 64px; padding-top: 64px; }
@@ -103,7 +103,7 @@ h2 .site-icon { width: 24px; height: 24px; }
 .research-highlight .publication-content { padding-right: 24px; }
 .research-highlight.without-figure .publication-content { padding-right: 0; }
 .publication-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
-.venue-badge { display: inline-block; padding: 4.6px 8.6px; background: #d1e7dd; color: #0f5132; border: 1px solid #a3cfbb; border-radius: 5px; font-size: 13.2px; font-weight: 700; font-style: italic; line-height: 1; }
+.venue-badge { display: inline-block; padding: 4.6px 8.6px; background: #e8f0fb; color: var(--accent-dark); border: 1px solid #bfd0ea; border-radius: 5px; font-size: 13.2px; font-weight: 700; font-style: italic; line-height: 1; }
 .status-badge { color: #565d66; background: #f1f2f4; border-color: #d9dde2; font-style: normal; }
 .publication h3 { margin-top: 4px; font-size: 17.6px; font-weight: 600; line-height: 1.4; letter-spacing: normal; }
 .authors { margin-top: 4px; color: #666; font-size: 15.2px; line-height: 1.3; }
