@@ -27,6 +27,45 @@
     }
   });
 
+  const copyEmail = document.querySelector('.copy-email');
+  if (copyEmail) {
+    const email = copyEmail.dataset.email;
+    const fallback = document.querySelector('.copy-fallback');
+    const status = document.querySelector('.copy-status');
+    let resetTimer;
+    let copying = false;
+
+    function showCopyFeedback(copied) {
+      copyEmail.classList.toggle('is-copied', copied);
+      copyEmail.title = copied ? 'Copied!' : 'Copy email address';
+      copyEmail.setAttribute('aria-label', copied ? 'Email address copied' : 'Copy email address');
+    }
+
+    copyEmail.hidden = false;
+    copyEmail.addEventListener('click', async () => {
+      if (copying) return;
+      copying = true;
+      clearTimeout(resetTimer);
+      showCopyFeedback(false);
+      status.textContent = '';
+      try {
+        await navigator.clipboard.writeText(email);
+        fallback.hidden = true;
+        showCopyFeedback(true);
+        status.textContent = 'Email address copied';
+        resetTimer = setTimeout(() => showCopyFeedback(false), 2000);
+      } catch {
+        fallback.hidden = false;
+        const input = fallback.querySelector('input');
+        input.focus();
+        input.select();
+        status.textContent = 'Copy the email address from the selected text';
+      } finally {
+        copying = false;
+      }
+    });
+  }
+
   function syncHeaderHeight() {
     if (header) document.documentElement.style.setProperty('--header-height', `${header.getBoundingClientRect().height}px`);
   }

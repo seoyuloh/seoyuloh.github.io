@@ -21,7 +21,17 @@ redirect_from:
       <p>My research focuses on <strong>AI for networked systems</strong>. I study the limits of reinforcement learning for system optimization and develop AI agents for reliable infrastructure management. I have also designed decentralized satellite networks.</p>
     </div>
     <div class="intro-contact">
-      <a class="profile-email" href="mailto:{{ site.author.email }}" target="_blank" rel="noopener noreferrer">{% include site-icon.html type='mail' %}{{ site.author.email }}</a>
+      <div class="profile-email">
+        <span class="email-address">{{ site.author.email | replace: '@', ' [at] ' | replace: '.', ' [dot] ' | escape }}</span>
+        <button class="copy-email" type="button" data-email="{{ site.author.email | escape }}" aria-label="Copy email address" title="Copy email address" hidden>
+          <span class="copy-default">{% include site-icon.html type='copy' %}</span>
+          <span class="copy-success">{% include site-icon.html type='check' %}</span>
+        </button>
+        <span class="visually-hidden copy-status" role="status" aria-live="polite" aria-atomic="true"></span>
+        <label class="copy-fallback" hidden>Copy manually:
+          <input type="text" value="{{ site.author.email | escape }}" readonly aria-label="Email address to copy">
+        </label>
+      </div>
       <div class="profile-links" aria-label="Professional profiles">
         <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" target="_blank" rel="noopener noreferrer">{% include profile-icon.html type='google-scholar' %}<span class="profile-tooltip" aria-hidden="true">Google Scholar</span></a>
         <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" target="_blank" rel="noopener noreferrer">{% include profile-icon.html type='github' %}<span class="profile-tooltip" aria-hidden="true">GitHub</span></a>
