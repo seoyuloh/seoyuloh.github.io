@@ -173,7 +173,7 @@ redirect_from:
       <p class="record-role">Artifact Evaluation Committee</p>
     </article>
     <article class="record">
-      <div class="record-heading"><h3><a class="text-link" href="https://sites.google.com/view/pacmi/home" target="_blank" rel="noopener noreferrer">ACM SOSP PACMI Workshop</a></h3><p class="record-date">2025</p></div>
+      <div class="record-heading"><h3><a class="text-link" href="https://sites.google.com/view/pacmi25/home" target="_blank" rel="noopener noreferrer">ACM SOSP PACMI Workshop</a></h3><p class="record-date">2025</p></div>
       <p class="record-role">Web Chair</p>
     </article>
   </div>
