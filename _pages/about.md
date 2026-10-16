@@ -53,7 +53,7 @@ redirect_from:
   <div>
     <ul class="news-list">
       <li><time datetime="2026-09">Sep 2026</time><p><strong>Rediscovering heuristics: A litmus test for RL in networked systems</strong> <span aria-hidden="true">🔍</span> is accepted at <a href="https://conferences.sigcomm.org/hotnets/2026/" target="_blank" rel="noopener noreferrer"><strong>HotNets 2026</strong></a>!</p></li>
-      <li><time datetime="2026-09">Sep 2026</time><p><a href="https://arxiv.org/abs/2609.29029" target="_blank" rel="noopener noreferrer"><strong>RIFT</strong></a> <span aria-hidden="true">🛰️</span> is accepted as a <span class="news-distinction"><strong class="publication-distinction">Spotlight</strong> <span aria-hidden="true">✨</span></span> at <a href="https://mlforsystems.org/" target="_blank" rel="noopener noreferrer"><strong>ML for Systems @ NeurIPS 2026</strong></a>!</p></li>
+      <li><time datetime="2026-09">Sep 2026</time><p><a href="https://arxiv.org/abs/2609.29029" target="_blank" rel="noopener noreferrer"><strong>RIFT</strong></a> <span aria-hidden="true">🛰️</span> is accepted as a <span class="news-distinction"><strong>Spotlight</strong> <span aria-hidden="true">✨</span></span> at <a href="https://mlforsystems.org/" target="_blank" rel="noopener noreferrer"><strong>ML for Systems @ NeurIPS 2026</strong></a>!</p></li>
       <li><time datetime="2026-08">Aug 2026</time><p>Completed my internship at <span class="inline-organization"><img src="{{ '/images/organizations/apple.svg' | relative_url }}" width="18" height="18" alt="" decoding="async"><strong>Apple</strong></span>, where I developed network optimizations for video streaming over satellite links</p></li>
     </ul>
     <details class="older-news">
