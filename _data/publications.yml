@@ -15,6 +15,7 @@
     - title: "Exploiting Answer-Invariant Redundancies in Satellite Imagery for Efficient VLM Inference on Edge"
       id: rift
       project: RIFT
+      distinction: Spotlight
       authors: "Ishani Janveja, Davis Zhang, Seoyul Oh, Deepak Vasisht"
       venue: ML for Systems @ NeurIPS
       year: 2026
