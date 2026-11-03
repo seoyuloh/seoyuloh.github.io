@@ -85,7 +85,7 @@ redirect_from:
           {% if paper.distinction %}<span class="publication-distinction">{{ paper.distinction | escape }}</span>{% endif %}
           {% if paper.project %}{% unless paper.title contains paper.project %}<span class="publication-project"><span aria-hidden="true">|</span> {{ paper.project | escape }}</span>{% endunless %}{% endif %}
         </div>
-        <h3{% if paper.id %} id="{{ paper.id }}-title"{% endif %}>{{ paper.title | escape }}</h3>
+        <h3{% if paper.id %} id="{{ paper.id }}-title"{% endif %}>{% if paper.monospace_prefix %}<code>{{ paper.monospace_prefix | escape }}</code>{{ paper.title | remove_first: paper.monospace_prefix | escape }}{% else %}{{ paper.title | escape }}{% endif %}</h3>
         <p class="authors">{{ paper.authors | escape | replace: 'Seoyul Oh', '<strong>Seoyul Oh</strong>' }}</p>
         {% if paper.links %}
         <div class="paper-links" aria-label="Resources for {{ paper.title | escape }}">

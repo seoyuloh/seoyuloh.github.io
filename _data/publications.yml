@@ -14,7 +14,6 @@
         We demonstrate the methodology in adaptive bitrate streaming (ABR) and congestion control (CC).
     - title: "Exploiting Answer-Invariant Redundancies in Satellite Imagery for Efficient VLM Inference on Edge"
       id: rift
-      project: RIFT
       distinction: Spotlight
       authors: "Ishani Janveja, Davis Zhang, Seoyul Oh, Deepak Vasisht"
       venue: ML for Systems @ NeurIPS
@@ -66,7 +65,6 @@
           url: https://vimeo.com/showcase/NINeS?video=1161962147
     - title: A Call for Decentralized Satellite Networks
       id: mp-leo
-      project: MP-LEO
       authors: "Seoyul Oh, Deepak Vasisht"
       venue: HotNets
       year: 2024
@@ -92,6 +90,10 @@
   papers:
     - title: "OrbitShare: A Multi-Party Architecture for Decentralized LEO Satellite Networks"
       authors: "Seoyul Oh, Bill Tao, Shreya Kannan, Deepak Vasisht"
+      status: Under review
+    - title: "RIFT: Query-Aware Redundancy Sifting in Satellite Imagery for Efficient VLM Inference at the Edge"
+      monospace_prefix: RIFT
+      authors: "Ishani Janveja, Seoyul Oh, Davis Zhang, Deepak Vasisht"
       status: Under review
     - title: Towards Autonomous Incident Mitigation with Graph-Grounded Agents
       authors: "Seoyul Oh, Nikhil Chandrasekar, Yiqi Mei, Deepak Vasisht, Francis Y. Yan"
