@@ -7,11 +7,25 @@
       authors: "Seoyul Oh, Yikai Zheng, Eric Xiang Gao, Deepak Vasisht, Francis Y. Yan"
       venue: HotNets
       year: 2026
+      url: https://djapg7v42ea9q.cloudfront.net/pdf/hotnets26-final305.pdf
       summary: >-
         We introduce heuristic rediscovery as a diagnostic test for RL training, asking whether
         compact policies can recover strong heuristic baselines. Visualizing the return landscape,
         optimization path, and policy correctness helps explain why training succeeds or fails.
         We demonstrate the methodology in adaptive bitrate streaming (ABR) and congestion control (CC).
+      links:
+        - label: Paper
+          icon: paper
+          url: https://djapg7v42ea9q.cloudfront.net/pdf/hotnets26-final305.pdf
+        - label: Artifact
+          icon: code
+          url: https://illinois-nsai.github.io/rl-litmus-test/
+        - label: 2-min Video
+          icon: video
+          url: https://djapg7v42ea9q.cloudfront.net/short-video/hotnets26-paper305.mp4
+        - label: Poster
+          icon: poster
+          url: /assets/Rediscovering-Heuristics-Poster.pdf
     - title: "Exploiting Answer-Invariant Redundancies in Satellite Imagery for Efficient VLM Inference on Edge"
       id: rift
       distinction: Spotlight
