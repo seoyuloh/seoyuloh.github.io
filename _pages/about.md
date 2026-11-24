@@ -11,7 +11,7 @@ redirect_from:
   <div class="intro-copy">
     <div class="intro-title">
       <p class="profile-focus">AI for Networked Systems</p>
-      <h1 id="name">Seoyul Oh</h1>
+      <h1 id="name">Seoyul Oh <span class="profile-flag" role="img" aria-label="South Korea">🇰🇷</span></h1>
       <p class="profile-name-ko" lang="ko">오서율</p>
     </div>
     <div class="biography">
@@ -20,6 +20,7 @@ redirect_from:
     </div>
     <div class="intro-contact">
       <div class="profile-email">
+        <span class="email-icon">{% include site-icon.html type='mail' %}</span>
         <span class="email-address">{{ site.author.email | replace: '@', ' [at] ' | replace: '.', ' [dot] ' | escape }}</span>
         <button class="copy-email" type="button" data-email="{{ site.author.email | escape }}" aria-label="Copy email address" title="Copy email address" hidden>
           <span class="copy-default">{% include site-icon.html type='copy' %}</span>

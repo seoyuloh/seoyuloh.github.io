@@ -55,10 +55,13 @@ strong { font-weight: 600; }
 .intro { display: grid; grid-template-columns: minmax(0, 1fr) 252px; align-items: start; gap: 64px; padding-top: 64px; }
 .intro-copy, .intro-title { min-width: 0; }
 h1 { color: var(--ink); font-size: 48px; line-height: 1.15; font-weight: 650; letter-spacing: -1.8px; }
+.profile-flag { font-size: .55em; vertical-align: middle; letter-spacing: normal; }
 .profile-name-ko { margin-top: 8px; color: var(--muted); font-size: 16px; line-height: 1.5; }
 .profile-focus { margin-bottom: 12px; color: var(--accent); font-size: 12px; font-weight: 600; line-height: 1.6; letter-spacing: 1.1px; text-transform: uppercase; }
 .intro-contact { margin-top: 20px; }
 .profile-email { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; min-height: 40px; color: var(--ink); font-size: 15px; }
+.email-icon { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 44px; }
+.email-icon .site-icon { width: 21px; height: 21px; }
 .copy-email { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 32px; height: 32px; padding: 0; border: 0; border-radius: 3px; background: transparent; color: var(--muted); cursor: pointer; }
 .copy-email .site-icon { width: 17px; height: 17px; }
 .copy-email:hover { color: var(--accent); background: #e8f0fb; }
