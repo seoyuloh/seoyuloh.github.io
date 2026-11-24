@@ -57,8 +57,6 @@ strong { font-weight: 600; }
 h1 { color: var(--ink); font-size: 48px; line-height: 1.15; font-weight: 650; letter-spacing: -1.8px; }
 .profile-name-ko { margin-top: 8px; color: var(--muted); font-size: 16px; line-height: 1.5; }
 .profile-focus { margin-bottom: 12px; color: var(--accent); font-size: 12px; font-weight: 600; line-height: 1.6; letter-spacing: 1.1px; text-transform: uppercase; }
-.intro-credentials { margin-top: 20px; }
-.intro-role, .profile-institution { font-size: 16px; line-height: 1.8; }
 .intro-contact { margin-top: 20px; }
 .profile-email { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; min-height: 40px; color: var(--ink); font-size: 15px; }
 .copy-email { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 32px; height: 32px; padding: 0; border: 0; border-radius: 3px; background: transparent; color: var(--muted); cursor: pointer; }
@@ -170,10 +168,9 @@ h2 .site-icon { width: 24px; height: 24px; }
 }
 
 @media (max-width: 767px) {
-  .intro { grid-template-columns: minmax(0, 1fr) 110px; grid-template-areas: "title photo" "credentials credentials" "biography biography" "contact contact"; gap: 24px 20px; padding-top: 36px; }
+  .intro { grid-template-columns: minmax(0, 1fr) 110px; grid-template-areas: "title photo" "biography biography" "contact contact"; gap: 24px 20px; padding-top: 36px; }
   .intro-copy { display: contents; }
   .intro-title { grid-area: title; align-self: center; }
-  .intro-credentials { grid-area: credentials; margin-top: 0; }
   .biography { grid-area: biography; margin-top: 0; }
   .intro-contact { grid-area: contact; margin-top: 0; }
   .profile-picture { grid-area: photo; align-self: center; margin: 0; }
@@ -224,7 +221,6 @@ h2 .site-icon { width: 24px; height: 24px; }
 @media (max-width: 360px) {
   .intro { grid-template-columns: minmax(0, 1fr) 88px; column-gap: 16px; }
   h1 { font-size: 34px; }
-  .intro-role { font-size: 14px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

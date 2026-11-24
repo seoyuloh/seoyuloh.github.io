@@ -14,9 +14,6 @@ redirect_from:
       <h1 id="name">Seoyul Oh</h1>
       <p class="profile-name-ko" lang="ko">오서율</p>
     </div>
-    <div class="intro-credentials">
-      <p class="intro-role">Ph.D. Candidate <span aria-hidden="true">|</span> <a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener noreferrer">Computer Science, UIUC</a></p>
-    </div>
     <div class="biography">
       <p>I’m a Computer Science Ph.D. candidate at the <a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener noreferrer">University of Illinois Urbana-Champaign</a>, co-advised by <a href="https://fyy.cs.illinois.edu/" target="_blank" rel="noopener noreferrer">Francis Y. Yan</a> and <a href="https://deepakv.web.illinois.edu/" target="_blank" rel="noopener noreferrer">Deepak Vasisht</a>.</p>
       <p>My research focuses on <strong>AI for networked systems</strong>. I study the limits of reinforcement learning for system optimization and develop AI agents for reliable infrastructure management. I have also designed decentralized satellite networks.</p>
