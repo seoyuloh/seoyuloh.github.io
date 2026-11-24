@@ -11,8 +11,8 @@ redirect_from:
   <div class="intro-copy">
     <div class="intro-title">
       <p class="profile-focus">AI for Networked Systems</p>
-      <h1 id="name">Seoyul Oh <span class="profile-flag" role="img" aria-label="South Korea">🇰🇷</span></h1>
-      <p class="profile-name-ko" lang="ko">오서율</p>
+      <h1 id="name">Seoyul Oh</h1>
+      <p class="profile-name-ko" lang="ko">오서율 <span class="profile-flag" role="img" aria-label="대한민국">🇰🇷</span></p>
     </div>
     <div class="biography">
       <p>I’m a Computer Science Ph.D. candidate at the <a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener noreferrer">University of Illinois Urbana-Champaign</a>, co-advised by <a href="https://fyy.cs.illinois.edu/" target="_blank" rel="noopener noreferrer">Francis Y. Yan</a> and <a href="https://deepakv.web.illinois.edu/" target="_blank" rel="noopener noreferrer">Deepak Vasisht</a>.</p>
