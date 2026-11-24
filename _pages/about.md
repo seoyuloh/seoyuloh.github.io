@@ -12,6 +12,7 @@ redirect_from:
     <div class="intro-title">
       <p class="profile-focus">AI for Networked Systems</p>
       <h1 id="name">Seoyul Oh</h1>
+      <p class="profile-name-ko" lang="ko">오서율</p>
     </div>
     <div class="intro-credentials">
       <p class="intro-role">Ph.D. Candidate <span aria-hidden="true">|</span> <a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener noreferrer">Computer Science, UIUC</a></p>

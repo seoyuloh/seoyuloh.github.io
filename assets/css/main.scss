@@ -55,6 +55,7 @@ strong { font-weight: 600; }
 .intro { display: grid; grid-template-columns: minmax(0, 1fr) 252px; align-items: start; gap: 64px; padding-top: 64px; }
 .intro-copy, .intro-title { min-width: 0; }
 h1 { color: var(--ink); font-size: 48px; line-height: 1.15; font-weight: 650; letter-spacing: -1.8px; }
+.profile-name-ko { margin-top: 8px; color: var(--muted); font-size: 16px; line-height: 1.5; }
 .profile-focus { margin-bottom: 12px; color: var(--accent); font-size: 12px; font-weight: 600; line-height: 1.6; letter-spacing: 1.1px; text-transform: uppercase; }
 .intro-credentials { margin-top: 20px; }
 .intro-role, .profile-institution { font-size: 16px; line-height: 1.8; }
